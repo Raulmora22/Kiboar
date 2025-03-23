@@ -1,0 +1,144 @@
+(footprint "434123025816"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WS-TASV</b><br>J-Bend SMT Tact Switch 6.0x3.8 mm,2 pins")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3d0156e4-a1a3-482a-876a-45c596ed5409")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "434123025816"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "edd4ad3e-b25a-42fd-bf2b-ba611f4fe59b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8dadd4e-5989-4353-8535-2c56bba61d96")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14f294b9-8683-46ea-801f-22ec13bff4f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12e498b8-03b4-44eb-859d-7879b3dba017")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -4.05 -2.25) (xy 4.05 -2.25) (xy 4.05 2.25) (xy -4.05 2.25)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "e330e2a9-88ac-492b-a7fd-4acec698ed62")
+	)
+	(fp_line
+		(start -3 -1.95)
+		(end -3 1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74a81157-bbd2-4deb-a7da-f407f3fd1b78")
+	)
+	(fp_line
+		(start -3 1.95)
+		(end 3 1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4837bdc7-e8e4-49d8-8dd9-434ee2c55fac")
+	)
+	(fp_line
+		(start 3 -1.95)
+		(end -3 -1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "063abac1-e0c3-44ae-92f0-8611a0cc8801")
+	)
+	(fp_line
+		(start 3 1.95)
+		(end 3 -1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "293dc85c-6ee8-4810-a017-09834a13f8cf")
+	)
+	(pad "1" smd rect
+		(at -3.175 0)
+		(size 1.35 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "1738eb04-f1d6-494a-889f-fe6c5578814a")
+	)
+	(pad "2" smd rect
+		(at 3.175 0)
+		(size 1.35 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "7acd3b4e-1f7d-4a2d-9bd9-071524e52b9d")
+	)
+	(model "${KIBOAR_3DMODELS}/Kiboar_Button.3dshapes/434123025816.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

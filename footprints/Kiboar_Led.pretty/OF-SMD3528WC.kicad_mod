@@ -1,0 +1,114 @@
+(footprint "OF-SMD3528WC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "3528W, 3528 Light Emitting Diodes (LED) ROHS")
+	(tags "3528 Light Emitting Diodes (LED) ROHS, Optoelectronics, Light Emitting Diodes (LED)")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e4cb8173-a7b4-40cb-8af0-2e84fa451351")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3528W"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "15e67558-a4f9-4606-bb61-c1e63b1745ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "948a100b-790b-4598-80fb-5d8ca6e2958b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3c0b0b3-8836-492d-91e8-d2919a475c94")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f29b185f-1558-4c09-b051-b6b9b56a2ff5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy 3.508 2.25) (xy 3 2.25) (xy 3.508 1.742)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "1be0f73b-1a77-4e1b-98eb-d827b706c358")
+	)
+	(fp_text user "REF**"
+		(at 0.25 0 0)
+		(layer "F.Fab")
+		(uuid "429e2a62-65eb-4254-98a1-c6bfece549a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.592405 -0.000025 180)
+		(size 1.785014 3.024003)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "868fac8e-1946-431f-a641-c74d4a256e9f")
+	)
+	(pad "2" smd rect
+		(at -1.592507 -0.000025 180)
+		(size 1.785014 3.024003)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fd3f1ce3-c554-44b1-9d06-2a5dc1a25205")
+	)
+	(model "${KIBOAR_3DMODELS}/Kiboar_Led.3dshapes/OF-SMD3528WC.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+)

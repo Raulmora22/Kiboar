@@ -1,0 +1,236 @@
+(footprint "Diode_ZENER"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DO-35-ren3")
+	(tags "Zener Diode")
+	(property "Reference" "Z**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "be9c9b83-d355-45eb-8fe2-3b0779d35ceb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Diode_ZENER"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8f5e9a93-5982-499c-8b1f-6cf9cf7d564f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb02fc3f-4b23-4836-8f18-b5bf80bda17e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7c3ef8c-7ef4-4a70-af10-933a9cabafa5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1ded848-bda6-4b1e-aec1-3c66319bc804")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 3 -0.75)
+		(end 6.5 -0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "622b507e-b0f1-4133-84d6-74b688415d80")
+	)
+	(fp_line
+		(start 3 0)
+		(end 3.75 -0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89d33583-4fd1-4c88-aefb-5731ca757de6")
+	)
+	(fp_line
+		(start 3 0.75)
+		(end 3 -0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80f97669-6e2b-48d5-8a72-9ff18d8b3711")
+	)
+	(fp_line
+		(start -0.85 -1.1)
+		(end 10.35 -1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0a2c4aec-3568-42df-b081-4ab29914f198")
+	)
+	(fp_line
+		(start -0.85 1.1)
+		(end -0.85 -1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f562e57c-482e-4191-8fc0-29e0c46d1957")
+	)
+	(fp_line
+		(start 10.35 -1.1)
+		(end 10.35 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "604e9ad1-2a47-479d-a36c-7580454dd513")
+	)
+	(fp_line
+		(start 10.35 1.1)
+		(end -0.85 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0164ef8-6a9b-42a3-93d9-d0f36cefba87")
+	)
+	(fp_line
+		(start 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "223c2223-47e0-4fb4-8179-43b51f9222eb")
+	)
+	(fp_line
+		(start 3 -0.75)
+		(end 6.5 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f959c349-c1bf-439d-93bc-b29c750f0562")
+	)
+	(fp_line
+		(start 3 0)
+		(end 3.75 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4493015c-8c89-4f5f-b38c-cb27c0a4c178")
+	)
+	(fp_line
+		(start 3 0.75)
+		(end 3 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b4fa514b-71b7-4c83-9ddf-bc654f9dfecf")
+	)
+	(fp_line
+		(start 6.5 -0.75)
+		(end 6.5 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aeb3766b-fbb9-4eb6-8c7f-4b8cce69f03d")
+	)
+	(fp_line
+		(start 6.5 0)
+		(end 9.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5844dae0-0dcb-4109-9410-f588ae37e763")
+	)
+	(fp_line
+		(start 6.5 0.75)
+		(end 3 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a67f1fe5-0109-4401-be64-db50b461bd83")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "263c41bc-9261-477a-9fa2-b7bb2e901792")
+	)
+	(pad "2" thru_hole circle
+		(at 9.5 0)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "47cc0866-f7c1-44cd-83ab-d27737a434da")
+	)
+	(model "${KIBOAR_3DMODELS}/Kiboar_Placeholder.3dshapes/Diode_ZENER.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

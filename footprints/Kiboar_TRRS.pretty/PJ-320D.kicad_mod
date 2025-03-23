@@ -1,0 +1,184 @@
+(footprint "PJ-320D"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 14.2 0)
+		(layer "Dwgs.User")
+		(uuid "7e2fe17d-5b63-42f7-9679-201d38c1d350")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TRRS-PJ-320D"
+		(at 0 -5.6 0)
+		(layer "F.Fab")
+		(uuid "25cf9ae5-6b03-4aac-90d9-793092c1ab42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ac24fbe-7fd1-4700-a917-9123f27e1051")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d77e9fc9-1cff-4676-aa6e-29123c71be50")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e49bc44e-faff-4e21-8197-9499f9f1f3e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.05 0)
+		(end -3.05 12.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "027a56be-4a1b-4435-867e-ca18ccc2010e")
+	)
+	(fp_line
+		(start -2.8 0)
+		(end -2.8 -2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c33a511d-d3fc-4678-9e9e-1eea02944ea5")
+	)
+	(fp_line
+		(start 2.8 -2)
+		(end -2.8 -2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2bbf421-65e9-4d71-8fc8-d79ef2e2681b")
+	)
+	(fp_line
+		(start 2.8 0)
+		(end 2.8 -2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2fc1b0d-8d21-4658-8feb-48ba8a09a13d")
+	)
+	(fp_line
+		(start 3.05 0)
+		(end -3.05 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f629f9bf-6322-428a-87f8-e56690d0ced9")
+	)
+	(fp_line
+		(start 3.05 0)
+		(end 3.05 12.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f3399ef-9ea7-40e9-af60-3e5b46f60206")
+	)
+	(fp_line
+		(start 3.05 12.1)
+		(end -3.05 12.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd6fd26c-4fe3-4498-bb28-7cf095438107")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 1.6)
+		(size 0.8 0.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "51c9a0cf-a85d-4361-bee2-2cf65638d4a7")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 8.6)
+		(size 0.8 0.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "421e3987-80e8-4dc2-aabc-32eb4b223a1c")
+	)
+	(pad "1" smd rect
+		(at -3.5 11.62)
+		(size 2.5 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a9538b92-3dee-43d6-b72a-c46a008e55ff")
+	)
+	(pad "2" smd rect
+		(at 3.25 10.2)
+		(size 2.5 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d0df5577-9d43-45e9-b791-e7873910d0ce")
+	)
+	(pad "3" smd rect
+		(at 3.25 6.2)
+		(size 2.5 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ddab52f6-eef6-4a2c-860c-00bff42cabc8")
+	)
+	(pad "4" smd rect
+		(at 3.25 3.2)
+		(size 2.5 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "57f7fd13-4970-4956-834e-e0c128e9ef12")
+	)
+	(model "${KIBOAR_3DMODELS}/Kiboar_TRRS.3dshapes/PJ-320D.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

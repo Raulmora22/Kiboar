@@ -1,0 +1,136 @@
+(footprint "SKTHBAE010"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "64522e67-2718-48db-89e5-b6b10cce13bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Switch_Experimental_Reverse-Mount_ALPS_SKTHBAE010"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "34199b3c-c82a-4341-aa89-f754a08b8492")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c910565-206f-49d5-a88f-35aaf97d8f49")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25805ccf-e273-4fc5-8e42-3f40e10a98f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04e7c676-968b-4dee-bc28-96564228702c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "" np_thru_hole circle
+		(at -1.55 -1)
+		(size 1 1)
+		(drill 1)
+		(layers "*.Mask" "B.Cu")
+		(uuid "b69fe882-f3b0-48c1-a25a-09c00c42465e")
+	)
+	(pad "" np_thru_hole circle
+		(at -1.55 1)
+		(size 1 1)
+		(drill 1)
+		(layers "*.Mask" "B.Cu")
+		(uuid "4ca598ef-8a01-43f3-b4fc-37c2fed74fb3")
+	)
+	(pad "" np_thru_hole rect
+		(at 0 0)
+		(size 3.6 3.3)
+		(drill oval 3.6 3.3)
+		(layers "*.Mask" "B.Cu")
+		(uuid "f7b8493a-125f-423d-a45b-33a3b92148bb")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.55 -1 180)
+		(size 1 1)
+		(drill 1)
+		(layers "*.Mask" "B.Cu")
+		(uuid "161ca769-e4f1-46c9-99d7-0416698aec2d")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.55 1 180)
+		(size 1 1)
+		(drill 1)
+		(layers "*.Mask" "B.Cu")
+		(uuid "83ade6b5-2394-42e4-988e-15bb9f5b7b27")
+	)
+	(pad "1" smd rect
+		(at -2.15 0.65 180)
+		(size 0.7 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c0f8c7ad-d5d0-4862-8819-2d522bb06df7")
+	)
+	(pad "1" smd rect
+		(at 2.15 0.65)
+		(size 0.7 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "94630cca-7c2c-4db8-8787-e6f51163dc0d")
+	)
+	(pad "2" smd rect
+		(at -2.15 -0.65 180)
+		(size 0.7 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "915d0e51-3996-41e9-83ed-243fcd7596c7")
+	)
+	(pad "2" smd rect
+		(at 2.15 -0.65)
+		(size 0.7 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7c79d640-76b9-4767-8406-f0504821e5e3")
+	)
+	(model "${KIBOAR_3DMODELS}/Kiboar_Button.3dshapes/SKTHBAE010.step"
+		(offset
+			(xyz 0 0 0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

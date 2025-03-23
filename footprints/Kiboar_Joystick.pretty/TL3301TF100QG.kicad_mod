@@ -1,0 +1,156 @@
+(footprint "TL3301TF100QG"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TL3301TF100QG-1")
+	(tags "Switch")
+	(property "Reference" "S**"
+		(at 0.5 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "995445ec-62e9-4cc8-9915-0dbd8d7dcf00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TL3301TF100QG"
+		(at -0.625 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bf61425e-c9e3-4858-9b79-dc9bb8908282")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35155ab3-4d03-49df-8ae9-09b2876713d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8de9503a-d6e7-4b84-bc07-23d27dc778bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3ebc6d1-2dbf-4918-9270-00d9b346a18c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.49 -5.96)
+		(end 3.46 6.02)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f21ac147-f7ef-4ad8-aa2e-9b8c2be2cb02")
+	)
+	(fp_line
+		(start -3 3)
+		(end 3 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e754b529-f8c6-4a89-a60d-8344328f5d94")
+	)
+	(fp_line
+		(start 3 -3)
+		(end -3 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "855a1f77-e85b-4b11-8e06-204be4352d65")
+	)
+	(fp_line
+		(start 3 3)
+		(end 3 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "222ec548-188b-41b0-ba20-da22aba160e2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.625 0 0)
+		(layer "F.Fab")
+		(uuid "a5bcfff4-4ea0-47f1-8336-f30d5b8b6df4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.25 -3.375)
+		(size 1.4 4.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d2eb1835-8217-4faa-b3c1-5c61fc0092a7")
+	)
+	(pad "1" smd rect
+		(at -2.25 3.375)
+		(size 1.4 4.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fa17bb1e-41c9-4133-8938-d89cb11d228d")
+	)
+	(pad "2" smd rect
+		(at 2.25 -3.35)
+		(size 1.4 4.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7815a0b8-665d-49e8-8ad5-f1e7e4d14692")
+	)
+	(pad "2" smd rect
+		(at 2.25 3.375)
+		(size 1.4 4.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "de4bb0cb-3432-4dcb-9a98-80b6bf7da6b0")
+	)
+	(model "${KIBOAR_3DMODELS}/Kiboar_Joystick.3dshapes/TL3301TF100QG.stp"
+		(offset
+			(xyz 0 0 0.48)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

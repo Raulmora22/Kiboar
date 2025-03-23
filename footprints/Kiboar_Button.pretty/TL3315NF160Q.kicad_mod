@@ -1,0 +1,217 @@
+(footprint "TL3315NF160Q"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://spec_sheets.e-switch.com/specs/P010337.pdf")
+	(property "Reference" "REF**"
+		(at -0.5 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5beeb65b-8501-4d24-bd26-2a906bb7a8ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TL3315NF160Q"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "256b6cc7-d94e-4647-ba86-9f838ec7236d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54235e26-2128-40d5-904e-cc62e588e5bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "829f1fac-21d3-4036-8212-d9ba206c9322")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca3f9aba-0138-43cc-b559-cb3a8de95892")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.83 -2.5)
+		(end -2.83 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dd92a7d0-cffc-4e96-b586-ecb63b8c41e4")
+	)
+	(fp_line
+		(start -2.83 -2.5)
+		(end 2.83 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "583e6412-35fd-4d4d-843e-727948ce33bb")
+	)
+	(fp_line
+		(start -2.83 2.5)
+		(end 2.83 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4f69b66d-4e9c-412c-8d23-9026a47e57ac")
+	)
+	(fp_line
+		(start 2.83 -2.5)
+		(end 2.83 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "02960269-e49f-4b28-819f-9bb8d0ccc16c")
+	)
+	(fp_line
+		(start -2.25 2.25)
+		(end -2.25 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe395c50-d087-481d-ba30-945c7339541b")
+	)
+	(fp_line
+		(start -2.25 2.25)
+		(end 2.25 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ffc7bdcb-9016-4db2-9a33-84da80dc6fa0")
+	)
+	(fp_line
+		(start 2.25 -2.25)
+		(end -2.25 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "80678a20-e32e-4f62-afcf-6fe45f2f86af")
+	)
+	(fp_line
+		(start 2.25 2.25)
+		(end 2.25 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f4e5bfb-bc4f-4b92-ae85-446f17fb2adf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c5c67add-59bb-46f3-aaf0-a9c2ded14330")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.475 -1.75)
+		(size 0.2 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3304e985-ded2-4ef9-b005-db8caa80607e")
+	)
+	(pad "1" smd rect
+		(at -2.125 -1.75)
+		(size 0.5 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fd191067-5f67-499a-9911-623f799e61cc")
+	)
+	(pad "2" smd rect
+		(at 2.125 -1.75)
+		(size 0.5 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "300c7f07-c2a6-467a-b8ab-cae45374ae26")
+	)
+	(pad "2" smd rect
+		(at 2.475 -1.75)
+		(size 0.2 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dd47067b-a43c-4838-b4ba-ac52f5de860c")
+	)
+	(pad "3" smd rect
+		(at -2.475 1.75)
+		(size 0.2 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "078b4087-8810-46c5-a909-4ef78d2a5e7b")
+	)
+	(pad "3" smd rect
+		(at -2.125 1.75)
+		(size 0.5 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8766a15f-bdff-47fd-8be0-39f62427d937")
+	)
+	(pad "4" smd rect
+		(at 2.125 1.75)
+		(size 0.5 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1bfb7e4d-ba41-42b4-8a5c-c344ee6eb70c")
+	)
+	(pad "4" smd rect
+		(at 2.475 1.75)
+		(size 0.2 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "07006e42-5234-4f0f-9c1b-754f5b5d127c")
+	)
+	(model "${KIBOAR_3DMODELS}/Kiboar_Button.3dshapes/TL3315NF160Q.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

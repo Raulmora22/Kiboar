@@ -1,0 +1,183 @@
+(footprint "CPT-1117-83-SMT-TR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CPT-1117-83-SMT-TR-5")
+	(tags "Loudspeaker or Buzzer")
+	(property "Reference" "LS**"
+		(at 0 5.925 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "638cf323-2fa1-4f51-8061-a58dd1151671")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CPT-1117-83-SMT-TR"
+		(at 0 5.925 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4a1b5712-4504-4a9d-8463-9ed551be7995")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb43d943-fad6-4c32-b331-42f4bec59cf6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fdf9cff-aa93-4d29-8f06-39e66f8c4cd3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f84344b-6e90-4ad3-b471-a17fa724dfba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.5 -3.4)
+		(end 5.5 -3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "36901dc5-4a01-4892-bcf0-ac29d9452571")
+	)
+	(fp_line
+		(start -5.5 15.25)
+		(end -5.5 -3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0ef1b378-bda9-4fab-9296-e2edfd522142")
+	)
+	(fp_line
+		(start 5.5 -3.4)
+		(end 5.5 15.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4814645b-4226-40a6-9487-a51bf274f80a")
+	)
+	(fp_line
+		(start 5.5 15.25)
+		(end -5.5 15.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "377eaf5d-28a5-49d8-b1c7-c39300b4f83c")
+	)
+	(fp_line
+		(start -4.5 1)
+		(end -4.5 12)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56295b11-afb0-4324-bdd5-55fcf9e7f63d")
+	)
+	(fp_line
+		(start -4.5 12)
+		(end 4.5 12)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d6ba665-54d4-4706-ba64-7e586c4f07fa")
+	)
+	(fp_line
+		(start 4.5 1)
+		(end -4.5 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31c0f810-f79c-4dec-aa75-5445255bae30")
+	)
+	(fp_line
+		(start 4.5 12)
+		(end 4.5 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "28e62548-2bc9-459c-a8bb-5d4c7b9f1b0e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.925 0)
+		(layer "F.Fab")
+		(uuid "ced7c46f-7cd8-4b5f-97ca-a14a8590c6ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 2.5 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "55680059-9cb9-4454-bafb-21418d1c941d")
+	)
+	(pad "2" smd rect
+		(at 0 13)
+		(size 2.5 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0220eec9-d241-4ed3-ac48-f9d6bc8e9e09")
+	)
+	(model "${KIBOAR_3DMODELS}/Kiboar_Buzzer.3dshapes/CPT-1117-83-SMT-TR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,163 @@
+(footprint "SKHHAKA010"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SKHHALA010")
+	(tags "Switch")
+	(property "Reference" "S**"
+		(at -0.291 0.003 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7a3fefc5-3d29-4e73-8156-cb27c71df746")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SKHHALA010"
+		(at -0.291 0.003 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4a74b5a1-de54-448d-bcda-48a6bcbfffe5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "655f010e-b0a6-4306-80a5-337160a9795d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "538eb9dc-8e62-4d10-99d4-54401131a6c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e645e29-74e9-4d49-a230-bbb9c12c0377")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3 -3)
+		(end 3 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8865d7da-8990-448f-9433-0e8a37a94efb")
+	)
+	(fp_line
+		(start -3 3)
+		(end -3 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70eb08e7-7540-4f7f-9c43-317195f09939")
+	)
+	(fp_line
+		(start 3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e5fec79-f252-48ce-8ace-b41a25642018")
+	)
+	(fp_line
+		(start 3 3)
+		(end -3 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "595ca622-b093-46f1-b39c-9c7a4d77237e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.291 0.003 0)
+		(layer "F.Fab")
+		(uuid "188a0b40-2f3a-4b80-9c84-daaa3a9e0c31")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.25 -2.25)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "46924b42-7e86-4a85-8a1a-37e80ebc55ae")
+	)
+	(pad "2" thru_hole circle
+		(at 3.25 -2.25)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d3927c33-0c5e-4f1e-9c70-069eeb7a7baa")
+	)
+	(pad "3" thru_hole circle
+		(at -3.25 2.25)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b6c3d481-23d8-4ccf-93f0-20b1f4809a79")
+	)
+	(pad "4" thru_hole circle
+		(at 3.25 2.25)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "24011e26-5699-4d0b-bb36-b5670a3bfad1")
+	)
+	(model "${KIBOAR_3DMODELS}/Kiboar_Button.3dshapes/SKHHAKA010.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

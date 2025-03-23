@@ -1,0 +1,225 @@
+(footprint "COM-10063"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "COM-10063-1")
+	(tags "Switch")
+	(property "Reference" "S**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "4069e546-c87b-4c45-a72f-adfcf6d5c46e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "COM-10063"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2f9b6a66-f328-44a8-b8db-2ffffc9de557")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95ee0326-b1c7-43a6-8f0a-3e4b03e45665")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e82ab31-47a1-4e51-9d53-865506fddcd2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "479fd8bd-ddc5-40ac-a418-1504f192cfd6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.25 -6.05)
+		(end 5.25 -6.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "41da4b73-059b-4379-b38e-e8d258262fb9")
+	)
+	(fp_line
+		(start -5.25 6.05)
+		(end -5.25 -6.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a41d9bbd-5b5e-448f-8e2f-085b3a7b1b6e")
+	)
+	(fp_line
+		(start 5.25 -6.05)
+		(end 5.25 6.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "35f14896-9385-435f-a134-728ccdb99897")
+	)
+	(fp_line
+		(start 5.25 6.05)
+		(end -5.25 6.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "17a6bc58-c502-4c85-9742-c7658c4c69d6")
+	)
+	(fp_line
+		(start -3.75 -3.75)
+		(end 3.75 -3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ba594cad-2c81-495e-b60c-00d24e31272e")
+	)
+	(fp_line
+		(start -3.75 3.75)
+		(end -3.75 -3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e986409-e62f-4d87-a7a3-e5179c03d6c1")
+	)
+	(fp_line
+		(start 3.75 -3.75)
+		(end 3.75 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "63e5d678-ff7d-4891-b26e-08dc62df81ab")
+	)
+	(fp_line
+		(start 3.75 3.75)
+		(end -3.75 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb783dad-db0b-4686-92c3-067ec1751b46")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e8a4b1b7-b067-421e-bc84-8304247fd946")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -1.9)
+		(size 0.75 0.75)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "77f54bee-a23d-4378-8833-41d4cb209717")
+	)
+	(pad "1" smd rect
+		(at -3.325 -1.4 90)
+		(size 1.1 1.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ac29b282-1d11-42f4-86fc-60e97d2fb96b")
+	)
+	(pad "2" smd rect
+		(at -3.325 0 90)
+		(size 1.1 1.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "be614a43-f8cf-4fc8-b2c6-bde0b4f99490")
+	)
+	(pad "3" smd rect
+		(at -3.325 1.4 90)
+		(size 1.1 1.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "95b8ea92-0ce3-4e64-bbce-c54eee26bcca")
+	)
+	(pad "4" smd rect
+		(at 3.325 -1.4 90)
+		(size 1.1 1.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "69621108-c1d3-4c1f-aabd-fda930ff0d76")
+	)
+	(pad "5" smd rect
+		(at 3.325 0 90)
+		(size 1.1 1.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5aa2e678-2a45-4e89-bd1f-498d7e6321fa")
+	)
+	(pad "6" smd rect
+		(at 3.325 1.4 90)
+		(size 1.1 1.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "76eac253-e3a4-4867-b1de-eabfa8a1933c")
+	)
+	(pad "MP1" smd rect
+		(at 0 4.1 90)
+		(size 1.9 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f770e30d-589f-4bea-a01e-46e653c80688")
+	)
+	(pad "MP2" smd rect
+		(at 0 -4.1 90)
+		(size 1.9 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c3d5521e-bedf-4f1f-a634-af0ea7900c9e")
+	)
+	(model "${KIBOAR_3DMODELS}/Kiboar_Joystick.3dshapes/COM-10063.stp"
+		(offset
+			(xyz 0 0 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,231 @@
+(footprint "SSAJ120100"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SSAJ120100-4")
+	(tags "Switch")
+	(property "Reference" "S**"
+		(at 0 0.505 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "38f4a07e-8dca-4d8f-8054-2abfe293fe1e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SSAJ120100"
+		(at 0 0.505 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4ef2b241-8e0a-4f6b-b8f4-03856829a86c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18293a6a-6046-4a0d-b431-01becc485a5b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7563df00-8155-4f5e-8ea0-76d26d026d62")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ce46846-91ba-49f7-839b-dbb6594ea72c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.45 -2.54)
+		(end 4.45 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b06f952-7e0c-4461-b6a0-60b23dd8ac93")
+	)
+	(fp_line
+		(start -4.45 3.55)
+		(end -4.45 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6541365a-44b8-4ff8-8998-3f37b4eb82e1")
+	)
+	(fp_line
+		(start 4.45 -2.54)
+		(end 4.45 3.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "649cb6d8-ad5f-48cc-9166-9486fe6ae730")
+	)
+	(fp_line
+		(start 4.45 3.55)
+		(end -4.45 3.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4b884ce-ebb8-45e4-964d-0c71f38e513f")
+	)
+	(fp_line
+		(start -2.75 -1.25)
+		(end -2.75 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c7fbf01f-d475-404e-bcc5-0d4fc56367dd")
+	)
+	(fp_line
+		(start -2.75 1.25)
+		(end 2.75 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6eda965b-cb4e-435b-902a-02de1fad289a")
+	)
+	(fp_line
+		(start 0.1 1.25)
+		(end 0.1 2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5808b0eb-f1fd-49b0-aaa7-68a341fa97b8")
+	)
+	(fp_line
+		(start 0.1 2.55)
+		(end 1.3 2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3f4086c8-969c-4cbb-8c3c-099f63a46951")
+	)
+	(fp_line
+		(start 1.3 2.55)
+		(end 1.3 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "91188978-a57f-4977-92d3-9cb2be6636cc")
+	)
+	(fp_line
+		(start 2.75 -1.25)
+		(end -2.75 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ac0d14a7-317e-44fa-8483-b53cc5904a5c")
+	)
+	(fp_line
+		(start 2.75 1.25)
+		(end 2.75 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ef428dde-2602-4b52-8734-e0f2be7c6b93")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.505 0)
+		(layer "F.Fab")
+		(uuid "48076719-606f-41a8-a324-a5fc5493a2c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 -1.285 90)
+		(size 0.51 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a954ef35-a3fa-4726-aec5-e4b8ec215484")
+	)
+	(pad "2" smd rect
+		(at 1 -1.285 90)
+		(size 0.51 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "38093036-97e1-4e5c-bf3d-b2245ae6a245")
+	)
+	(pad "3" smd rect
+		(at 0 -1.285 90)
+		(size 0.51 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7a525bc2-cb1e-4cdc-93f3-32b20eb96baa")
+	)
+	(pad "4" smd rect
+		(at -3 0.07 90)
+		(size 0.7 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d4c6e10a-20db-49f6-aed0-c5c4cfc3b3a9")
+	)
+	(pad "5" smd rect
+		(at 3 0.07 90)
+		(size 0.7 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6f98d113-b4e3-490d-855a-eaeebe5c13c1")
+	)
+	(model "${KIBOAR_3DMODELS}/Kiboar_Switch.3dshapes/SSAJ120100.stp"
+		(offset
+			(xyz 0 -1.190000039 0.03999999851)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

@@ -1,0 +1,165 @@
+(footprint "WS2812B-MINI"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "LED1"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "46255620-16a2-4e81-9e4a-58dddcf89388")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WS2812B-Mini"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "9cd1ba63-2087-4000-a5a9-797dad78d993")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbebef90-5292-4706-9644-9104c84d4467")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbe4ba22-fa9c-49fe-85dd-5e6219c471fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f55172bd-a9d3-4b4f-a417-e9f0aec67a9b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C527089"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8d57c20-e6bd-4743-b815-6372ddc80314")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 2.9 1.45) (xy 2.392 1.45) (xy 2.9 0.942)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "b2de1057-44b4-4b1a-b3d7-c19d3cd25553")
+	)
+	(fp_line
+		(start -1.74 1.74)
+		(end -1.74 -1.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba660766-df56-40bf-b584-d5d4ed6cb6fc")
+	)
+	(fp_line
+		(start -1.74 1.74)
+		(end 1.74 1.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "af5a6355-b37d-4130-98e5-c563dae6ea34")
+	)
+	(fp_line
+		(start 1.74 -1.74)
+		(end -1.74 -1.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5fe5bd8d-5a86-4565-bd10-e08c6de9aa03")
+	)
+	(fp_line
+		(start 1.74 1.74)
+		(end 1.74 -1.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "04b78285-4974-4fa0-8f4e-46d399f5727c")
+	)
+	(pad "1" smd rect
+		(at -1.465 -0.89 90)
+		(size 0.9 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4e944601-14c5-4478-a9d6-8d2ad19dcc43")
+	)
+	(pad "2" smd rect
+		(at -1.465 0.89 90)
+		(size 0.9 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d7fccf28-3bfa-4b51-bf91-5d4755a0686e")
+	)
+	(pad "3" smd rect
+		(at 1.465 0.89 90)
+		(size 0.9 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "01106a52-6b7d-40fd-b165-c927be1f6a1d")
+	)
+	(pad "4" smd rect
+		(at 1.465 -0.89 90)
+		(size 0.9 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9fb044e3-00d4-4901-9cd7-c364c152358f")
+	)
+	(model "${KIBOAR_3DMODELS}/Kiboar_Led.3dshapes/WS2812B-MINI.step"
+		(offset
+			(xyz 0 0 -0.06)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

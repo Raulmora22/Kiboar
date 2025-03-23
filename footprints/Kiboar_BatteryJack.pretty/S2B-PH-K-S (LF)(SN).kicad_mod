@@ -1,0 +1,235 @@
+(footprint "S2B-PH-K-S (LF)(SN)"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ba9697ed-ba95-4d4e-9587-d2f41411e311")
+		(effects
+			(font
+				(size 0.48 0.48)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "JST_S2B-PH-K-S_LF__SN_"
+		(at 0 2 90)
+		(layer "F.Fab")
+		(uuid "255cd979-2180-4a73-90b9-b2383b2cc0b8")
+		(effects
+			(font
+				(size 0.48 0.48)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f07886cc-6e2d-4093-8035-ca0783e99ff6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "898ee100-f3ee-458f-bcf2-f5d6fd797c90")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0950885b-c9d1-4ca0-8c21-f382e7e4bcb8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.5 1.5)
+		(end -0.5 1.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d886a49f-395d-48bc-945b-02131c87c996")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -0.5 1.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d886a49f-395d-48bc-945b-02131c87c996")
+	)
+	(fp_line
+		(start 0.5 1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "945f1362-dd46-4457-8482-096f83c4b9cd")
+	)
+	(fp_line
+		(start 0.5 1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "945f1362-dd46-4457-8482-096f83c4b9cd")
+	)
+	(fp_line
+		(start 1 1)
+		(end 1 2)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "65a7bd99-774e-4520-a6f8-c0bf1882892b")
+	)
+	(fp_line
+		(start 1 1)
+		(end 1 2)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "65a7bd99-774e-4520-a6f8-c0bf1882892b")
+	)
+	(fp_line
+		(start -3.2 -1.6)
+		(end 3.2 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e92bbca7-70c7-4cd5-b7b0-176fd4450847")
+	)
+	(fp_line
+		(start -3.2 6.5)
+		(end -3.2 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2aeba273-756d-4578-9766-a2c946aea8b9")
+	)
+	(fp_line
+		(start 3.2 -1.6)
+		(end 3.2 6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9c719e65-caeb-454b-ba9f-1d40ccf14eff")
+	)
+	(fp_line
+		(start 3.2 6.5)
+		(end -3.2 6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba75a856-8b29-4a06-8745-93ee6ee55143")
+	)
+	(fp_line
+		(start -2.95 -1.35)
+		(end 2.95 -1.35)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82aa0ee0-0606-4227-8521-7efa1eff2800")
+	)
+	(fp_line
+		(start -2.95 6.25)
+		(end -2.95 -1.35)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04a16189-79a1-47ea-8096-05a5607d8163")
+	)
+	(fp_line
+		(start 2.95 -1.35)
+		(end 2.95 6.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4d0a2de1-59e5-49d4-aa13-8a610907bcf0")
+	)
+	(fp_line
+		(start 2.95 6.25)
+		(end -2.95 6.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17f2c7a6-d2cd-448c-8bfc-6a68e3520686")
+	)
+	(pad "1" thru_hole rect
+		(at -1 0)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "6d4b71f2-220d-4e36-9a59-cfe2bddb05ab")
+	)
+	(pad "2" thru_hole circle
+		(at 1 0)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "4b350cec-4fa1-42af-96d5-19f74b399dd6")
+	)
+	(model "${KIBOAR_3DMODELS}/Kiboar_BatteryJack.3dshapes/S2B-PH-K-S (LF)(SN).step"
+		(offset
+			(xyz 0 1.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

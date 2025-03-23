@@ -1,0 +1,120 @@
+(footprint "OLED_128x64"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 5.08 19.05 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "321fc844-a873-4e3f-83ce-18c15e8ba326")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OLED_128x64"
+		(at 0 -8.89 0)
+		(layer "F.Fab")
+		(uuid "31c7894f-372d-4d7b-a301-c7d73505791b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5529b6c2-d4fe-4ef3-9693-6e5921335d79")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "823c5822-b5ee-458e-b406-9df9d9060bad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "016a14a5-9f72-40d5-b280-43376ad1c015")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(fp_rect
+		(start -5.18 -1.29)
+		(end 5.18 1.37)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ef996fb1-a92d-45e5-8f2e-76f425cb8d12")
+	)
+	(pad "1" thru_hole rect
+		(at -3.81 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fa21fe5a-1c44-40a7-8c8c-c25a565ab33c")
+	)
+	(pad "2" thru_hole oval
+		(at -1.27 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "40181d46-8ab3-4963-ba7f-8f59cf99381a")
+	)
+	(pad "3" thru_hole oval
+		(at 1.27 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "df13f180-6bb3-41af-a38b-632a04dc5351")
+	)
+	(pad "4" thru_hole oval
+		(at 3.81 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dfc54413-6b1d-4d46-a1e8-438d5b135d9d")
+	)
+	(model "${KIBOAR_3DMODELS}/Kiboar_Display.3dshapes/OLED_128x64.STEP"
+		(offset
+			(xyz 0 -12.2 7.04)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

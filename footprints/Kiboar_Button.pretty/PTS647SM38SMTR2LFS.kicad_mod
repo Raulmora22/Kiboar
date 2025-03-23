@@ -1,0 +1,195 @@
+(footprint "PTS647SM38SMTR2LFS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "PTS647SM38SMTR2LFS-3")
+	(tags "Switch")
+	(property "Reference" "S**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "483a1ced-60eb-4ff6-86dd-74ebe8a458ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PTS647SM38SMTR2LFS"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6db69928-7eac-47df-8b3a-3676a181a2b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68c9bedb-eb8b-4dd6-81b8-68d2f74a0a21")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3eeb09b-4246-4bcd-b382-c5e2d7b5a142")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a214653-e484-4aa3-8db0-f0ee182503d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.9 -2.75)
+		(end 3.9 -2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d30d62f3-d505-4796-8a2c-5d84d15571da")
+	)
+	(fp_line
+		(start -3.9 2.75)
+		(end -3.9 -2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "95f5ae50-25ed-4f21-9344-b20dbccdb7e2")
+	)
+	(fp_line
+		(start 3.9 -2.75)
+		(end 3.9 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9526b0d2-4e3c-4411-a34b-65c52ac6428c")
+	)
+	(fp_line
+		(start 3.9 2.75)
+		(end -3.9 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "72ee7b93-8208-4abe-8802-0cf60d3c1cd9")
+	)
+	(fp_line
+		(start -2.25 -2.25)
+		(end 2.25 -2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a0c3d5fc-c484-4bc6-99bf-13a61cfe9645")
+	)
+	(fp_line
+		(start -2.25 2.25)
+		(end -2.25 -2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "baec329d-0eac-4473-94b1-52a30455f07a")
+	)
+	(fp_line
+		(start 2.25 -2.25)
+		(end 2.25 2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc9b8760-f537-410f-a35a-a733b88da0da")
+	)
+	(fp_line
+		(start 2.25 2.25)
+		(end -2.25 2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "385fbbb8-61a8-4062-90d8-4ba1cd1aebe2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e5f65a20-dc63-4c72-9358-85b9baa91657")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.625 -1.6 90)
+		(size 1 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e05bbdeb-5841-4a7c-b96f-828f74c193f8")
+	)
+	(pad "2" smd rect
+		(at 2.625 -1.6 90)
+		(size 1 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2718dc9c-5552-4d5d-93f9-5e56f41f3fd3")
+	)
+	(pad "3" smd rect
+		(at -2.625 1.6 90)
+		(size 1 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "342ceb00-d141-48c1-b3ec-fe0e413de919")
+	)
+	(pad "4" smd rect
+		(at 2.625 1.6 90)
+		(size 1 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "599a0da3-9c44-4072-8e7f-110c880e4184")
+	)
+	(model "${KIBOAR_3DMODELS}/Kiboar_Button.3dshapes/PTS647SM38SMTR2LFS.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 0)
+		)
+	)
+)

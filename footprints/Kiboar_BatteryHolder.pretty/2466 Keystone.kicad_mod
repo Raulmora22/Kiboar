@@ -1,0 +1,235 @@
+(footprint "2466 Keystone"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cb699612-7df6-49bd-91bc-6fad2e1eaf6e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BAT_2466"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "f681e727-18ba-4f76-967c-77ecd3afc5fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "124a7c58-eb93-4909-859b-16dfb4fbb8e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "debd823f-694c-445f-9222-bf77b92b80a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc62e56e-8078-4516-9eea-65c62ed457e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -19.5 0)
+		(end -20.5 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df10e842-2e42-48cf-a778-82f4e1f9d65e")
+	)
+	(fp_line
+		(start 20 0.5)
+		(end 20 -0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa81e55f-5fff-492d-ac59-fc2ea277e65a")
+	)
+	(fp_line
+		(start 20.5 0)
+		(end 19.5 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d8a2c88-233d-44e7-8532-733abd7cd778")
+	)
+	(fp_line
+		(start -25.245 -6.75)
+		(end 25.245 -6.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "deaf39d5-896f-4be9-8705-4436266c8d90")
+	)
+	(fp_line
+		(start -25.245 6.75)
+		(end -25.245 -6.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00bd0dda-e837-458f-8b8e-bfd27f2acd63")
+	)
+	(fp_line
+		(start 25.245 -6.75)
+		(end 25.245 6.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dd29ae7e-062d-4548-b1ff-1af474ab94bf")
+	)
+	(fp_line
+		(start 25.245 6.75)
+		(end -25.245 6.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "483bf97a-2abc-47a7-bd97-11cf3c6cc942")
+	)
+	(fp_line
+		(start -24.995 -6.5)
+		(end 24.995 -6.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb524a89-8a83-4a13-b859-1c7d02f6e32e")
+	)
+	(fp_line
+		(start -24.995 6.5)
+		(end -24.995 -6.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c910e67e-b005-4b16-be1d-09f5b6f6ba55")
+	)
+	(fp_line
+		(start -19.5 0)
+		(end -20.5 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4455439e-fb0c-4f78-bee9-1f14e278b49d")
+	)
+	(fp_line
+		(start 19.5 0)
+		(end 20.5 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c6d0c3b-41b2-4cf8-910d-02a05e4fbf0e")
+	)
+	(fp_line
+		(start 20 0.5)
+		(end 20 -0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c23a4d4a-dbd4-4914-9740-0c8d2a871146")
+	)
+	(fp_line
+		(start 24.995 -6.5)
+		(end 24.995 6.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "501bb3f3-ad03-41a3-bd18-633744180968")
+	)
+	(fp_line
+		(start 24.995 6.5)
+		(end -24.995 6.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90bcab49-4c0c-4e65-ae05-52150472603c")
+	)
+	(pad "N" thru_hole circle
+		(at -22.35 0)
+		(size 1.53 1.53)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "22274d55-63b8-4502-b295-bc4d0907b956")
+	)
+	(pad "P" thru_hole circle
+		(at 22.35 0)
+		(size 1.53 1.53)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "c0e201cf-6654-4833-88b2-0350bc442aa8")
+	)
+	(model "${KIBOAR_3DMODELS}/Kiboar_BatteryHolder.3dshapes/2466.step"
+		(offset
+			(xyz 0.23 -2.3 10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)

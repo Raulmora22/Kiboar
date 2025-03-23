@@ -1,0 +1,137 @@
+(footprint "NICE!VIEW"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "Ref**"
+		(at -0.07 0.54 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3d1a128e-a368-49fc-b8c3-d0147e0e85a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NICE!VIEW"
+		(at 0.13 0.54 0)
+		(layer "F.Fab")
+		(uuid "a1a8e08a-db90-4a47-95c0-18008becd455")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18656d32-f5ba-4fcd-9d81-a12c6292ba7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfdb40a7-f992-4903-833f-03bb9f6a294f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ccc2f02a-c8a4-4bf1-b43b-c9c23b8d07c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -1.39 -6.41)
+		(end 1.399 6.582)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "7e02b826-4e4b-40a6-8394-c16af984ff24")
+	)
+	(pad "1" thru_hole oval
+		(at 0 5.08)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "8dad72e9-5faf-4589-b4c6-e8c978c75ae4")
+	)
+	(pad "2" thru_hole oval
+		(at 0 2.54)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "8192283d-87a5-4eba-b86a-fda45ec01a90")
+	)
+	(pad "3" thru_hole oval
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "0670e52d-57f5-4279-a637-348729d5b4f6")
+	)
+	(pad "4" thru_hole oval
+		(at 0 -2.54)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "21466cee-ad75-401f-97d2-b0420235a984")
+	)
+	(pad "5" thru_hole oval
+		(at 0 -5.08)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "efdee08f-0893-42a0-a6cd-8bace3385c9f")
+	)
+	(model "${KIBOAR_3DMODELS}/Kiboar_Display.3dshapes/Nice_View.step"
+		(offset
+			(xyz -1.25 7 3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

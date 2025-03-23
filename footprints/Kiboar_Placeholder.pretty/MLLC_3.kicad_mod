@@ -1,0 +1,247 @@
+(footprint "MLLC_3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SA11")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "46da2ca5-7594-4e6f-ba8c-1a93c7daa0db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MLLC_3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9e831b14-6ac8-4da8-9eb0-e8f97888f7f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53199b53-63d8-4759-9742-5b8446040ece")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9aa010de-85fc-4e3d-a313-e6b816bb0b01")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c97c6876-ea7d-4906-a4f8-16416e0ec185")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 4.6 -1.15)
+		(end 7.6 -1.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa8e601f-6032-4478-8a07-8e10408887fd")
+	)
+	(fp_line
+		(start 4.6 0)
+		(end 5.75 -1.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50813e09-e0c9-4860-b3ac-ddc558af9a9a")
+	)
+	(fp_line
+		(start 4.6 1.15)
+		(end 4.6 -1.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0aebb2f-0a2d-43d4-8a68-739d7f025c61")
+	)
+	(fp_line
+		(start -0.775 -1.5)
+		(end 12.975 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "40d620af-8a35-4738-aca9-4cfbde998195")
+	)
+	(fp_line
+		(start -0.775 1.5)
+		(end -0.775 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0de15af0-f5bd-47dc-9565-161ce4a9a14c")
+	)
+	(fp_line
+		(start 12.975 -1.5)
+		(end 12.975 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e2272c2-f30f-415a-81c8-48215c04d26d")
+	)
+	(fp_line
+		(start 12.975 1.5)
+		(end -0.775 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e58fdbf4-8840-4514-9d12-5fd84bc85544")
+	)
+	(fp_line
+		(start 0 0)
+		(end 4.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86651aaf-a449-402b-848d-40cf458889d2")
+	)
+	(fp_line
+		(start 4.6 -1.15)
+		(end 7.6 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "514cae29-1f2a-4e55-9684-6a225e2ef245")
+	)
+	(fp_line
+		(start 4.6 0)
+		(end 5.75 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85853964-0a92-452d-9447-8101d87c9bcc")
+	)
+	(fp_line
+		(start 4.6 1.15)
+		(end 4.6 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "10af8561-3f8e-433d-8335-28a60925e2fc")
+	)
+	(fp_line
+		(start 7.6 -1.15)
+		(end 7.6 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b8a1ef4-d986-4d88-8aa8-0a7b697da91f")
+	)
+	(fp_line
+		(start 7.6 0)
+		(end 12.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "62f7cf7c-42d1-486c-98ba-dba5fbd5e5d5")
+	)
+	(fp_line
+		(start 7.6 1.15)
+		(end 4.6 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6f1fe208-b6be-460c-9509-a64b0a738ccf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "17fb6004-24d2-4f24-a0c0-de52bf72d4db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.05 1.05)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7acdd8f7-a729-4052-94d4-1562034bab4a")
+	)
+	(pad "2" thru_hole circle
+		(at 12.2 0)
+		(size 1.05 1.05)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2320c919-fa2f-445e-b31d-e59422340391")
+	)
+	(model "${KIBOAR_3DMODELS}/Kiboar_Placeholder.3dshapes/MLLC_3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
