@@ -30,7 +30,7 @@ Welcome to the **Kiboar**! This project provides a comprehensive collection of c
 
 ## Contributing
 
-Contributions are welcome! Feel free to submit pull requests, open issues, or suggest new compon ents.
+Contributions are welcome! Feel free to submit pull requests, open issues, or suggest new components.
 
 ## Contact
 
