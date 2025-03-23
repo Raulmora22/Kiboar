@@ -30,7 +30,7 @@ Welcome to the **Kiboar**! This project provides a comprehensive collection of c
 
 ## Contributing
 
-Contributions are welcome! Feel free to submit pull requests, open issues, or suggest new components.
+Contributions are welcome! Feel free to submit pull requests, open issues, or suggest new compon ents.
 
 ## Contact
 
@@ -45,3 +45,4 @@ Happy designing and building awesome mechanical keyboards! ⌨️💪
 - [Marbastlib](https://github.com/ebastler/marbastlib)
 - [Keyswitches.pretty](https://github.com/daprice/keyswitches.pretty)
 - [Kicad-libraries](https://github.com/sszczep/kicad-libraries)
+- [ScottoKicad](https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad)
