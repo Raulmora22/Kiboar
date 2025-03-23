@@ -1,0 +1,60 @@
+name: "Bug Report"
+description: "Report a bug in the project"
+title: "[BUG] - "
+labels: ["bug"]
+assignees: ["SampleAssignee"]
+
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: "Summary"
+      description: "Briefly summarize the bug"
+      placeholder: "The application crashes when clicking the save button"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: "Steps to reproduce"
+      description: "Provide a step-by-step guide to reproduce the bug"
+      placeholder: "1. Go to settings\n2. Click on save\n3. The app crashes"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: "Expected behavior"
+      description: "What should happen instead?"
+      placeholder: "The app should save the settings without crashing"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: "Actual behavior"
+      description: "Describe what actually happens"
+      placeholder: "The app crashes with a fatal error message"
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: "Environment"
+      description: "Provide details about the environment where the bug occurs"
+      placeholder: "OS: Windows 10, Browser: Chrome 112, App version: 1.0.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: "Additional context"
+      description: "Add any other relevant information, logs, or screenshots"
+      placeholder: "Error logs from the console, network requests, etc."
+    validations:
+      required: false

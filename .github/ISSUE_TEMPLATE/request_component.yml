@@ -1,0 +1,67 @@
+name: "Component Request"
+description: "Request a new component to be added to the library"
+title: "[Component Request] - "
+labels: ["new component"]
+assignees: ["SampleAssignee"]
+
+body:
+  - type: input
+    id: brand
+    attributes:
+      label: "Brand"
+      description: "Select the brand of the component"
+    validations:
+      required: true
+
+  - type: input
+    id: component_type
+    attributes:
+      label: "Component type"
+      description: "Type of your component"
+    validations:
+      required: true
+
+  - type: input
+    id: model_name
+    attributes:
+      label: "Model Name"
+      description: "Model Name of the component"
+      placeholder: "e.g., LM358"
+    validations:
+      required: true
+
+  - type: input
+    id: purchase_link
+    attributes:
+      label: "Purchase link"
+      description: "Purchase link of the component from (Digi-Key, Mouser, etc.)"
+      placeholder: "https://www.digikey.com/example"
+    validations:
+      required: true
+
+  - type: input
+    id: pdf_link
+    attributes:
+      label: "PDF link"
+      description: "Datasheet PDF link of the component"
+      placeholder: "https://www.mouser.com/example.pdf"
+    validations:
+      required: false
+
+  - type: input
+    id: 3d_link
+    attributes:
+      label: "3D model link"
+      description: "3D model file link of the component"
+      placeholder: "https://www.example.com/3dmodel"
+    validations:
+      required: false
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: "Why do you want to add this component?"
+      description: "Explain why this component should be included"
+      placeholder: "This component is commonly used in keyboards"
+    validations:
+      required: true

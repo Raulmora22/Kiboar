@@ -1,7 +1,7 @@
 <p align="center">
     <img align="center"
           src="/logo.svg"
-    alt="logo" height="300" width="300" />
+    alt="logo" height="300" width="300 " />
 </p>
 
 Welcome to the **Kiboar**! This project provides a comprehensive collection of components, footprints, and symbols specifically designed to help you create custom mechanical keyboards using **KiCad**.
@@ -31,15 +31,6 @@ Welcome to the **Kiboar**! This project provides a comprehensive collection of c
 ## Contributing
 
 Contributions are welcome! Feel free to submit pull requests, open issues, or suggest new components.
-
-1. **Fork** the repository.
-2. **Create a branch** for your feature:
-
-   ```bash
-   git checkout -b feature-new-component
-   ```
-
-3. **Commit your changes** and **submit a pull request**.
 
 ## Contact
 
